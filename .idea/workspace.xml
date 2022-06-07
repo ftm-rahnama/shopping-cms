@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1449e86a-2410-4c16-b5c9-bffec83a522a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="25LHGrPTt80eD5kQ13ucCuYXwM4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/htdocs/laravel1/mvc-framework" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\backend\shopping\include\classes" />
+      <recent name="C:\wamp64\www\backend\shopping\admin_area\include" />
+      <recent name="C:\wamp64\www\backend\shopping\include" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1449e86a-2410-4c16-b5c9-bffec83a522a" name="Default Changelist" comment="" />
+      <created>1645299354854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645299354854</updated>
+      <workItem from="1645299356310" duration="17228000" />
+      <workItem from="1645462326825" duration="667000" />
+      <workItem from="1645809411303" duration="151000" />
+      <workItem from="1645809566617" duration="7798000" />
+      <workItem from="1645819375705" duration="15176000" />
+      <workItem from="1645898016714" duration="15136000" />
+      <workItem from="1646162044763" duration="24560000" />
+      <workItem from="1646306265606" duration="28248000" />
+      <workItem from="1646401723160" duration="6078000" />
+      <workItem from="1646424025771" duration="25051000" />
+      <workItem from="1646477084856" duration="1140000" />
+      <workItem from="1646492639748" duration="31446000" />
+      <workItem from="1646575211260" duration="23925000" />
+      <workItem from="1646676020676" duration="17115000" />
+      <workItem from="1646754958418" duration="18736000" />
+      <workItem from="1646826984180" duration="1896000" />
+      <workItem from="1646858045311" duration="215000" />
+      <workItem from="1646862936045" duration="6454000" />
+      <workItem from="1647006693655" duration="2483000" />
+      <workItem from="1652190655401" duration="101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

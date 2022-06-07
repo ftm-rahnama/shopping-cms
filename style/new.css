@@ -1,0 +1,309 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../font/Vazir-Light.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    list-style:none;
+}
+body{
+    outline: none;
+    text-align: right;
+    font-size: 16px;
+    font-family: Vazir;
+    background-color: #fff;
+
+}
+.wrapper{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f8f8f8;
+    padding: 0;
+}
+#top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color:  #333;
+    padding: 0 10px;
+}
+#top h3 i{
+    color: #e3ab06;
+}
+#top a{
+    text-decoration: none;
+    font-size: 42px;
+    color:#333;
+    transition: 500ms;
+}
+hr{
+    background-color: #cb9a00;
+
+}
+.cart-icon{
+    font-size: 32px;
+    transition: 500ms;
+}
+.cart-icon:hover{
+    color: #cb9a00;
+}
+#top img {
+    margin-top: 30px;
+    width: 60px;
+}
+.shopping-cart{
+    position: relative;
+    margin:0 6px;
+}
+#top .shopping-cart .num{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 450;
+    top:-10px;
+    left: 12px;
+    padding:0 7px;
+    background-color: #dda801;
+    color: #fff;
+    border-radius: 9px;
+
+}
+.cart{
+    font-size: 14px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    left: 0;
+    width: 350px;
+}
+.cart .card{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.cart .card-body{
+
+    border-radius: 8px;
+    max-height:380px;
+    overflow: auto;
+}
+#top .image img{
+    display: block;
+    width: 100%;
+}
+
+#top .trash{
+    font-size: 15px;
+    transition: 600ms;
+    color: #b7082a;
+}
+#top .trash:hover i{
+    transform: scale(1.3);
+    color: #ff0035;
+}
+.shopping-cart:hover .cart{
+    display: block;
+}
+#top .order {
+    font-size: 16px;
+    color: #fff;
+}
+#menu ul{
+    background-color: #444;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding:15px 3px;
+}
+
+#menu a {
+    color: #e9e9e9;
+    display: inline-block;
+    transition: 0.3s;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #cb9a00;
+    transform: scale(1.07);
+}
+#sidebar{
+    background-color: #fff;
+
+    padding:16px 13px ;
+    color: #cb9a00;
+    border-radius: 8px;
+}
+#categories a {
+    color: #333;
+   text-decoration: none;
+
+}
+
+
+#categories div > ul > li {
+    padding-right: 15px;
+    line-height: 220%;
+    border-bottom: 1px solid #cb9a00;
+    position: relative;
+    overflow: hidden;
+}
+
+#categories div > ul > li > a {
+    font-size: 16px;
+    display: block;
+    transition: 0.4s;
+}
+
+#categories div > ul > li:hover >a{
+    padding-right: 10px;
+}
+
+#categories div > ul > li > ul a {
+    font-size: 14px;
+    display: block;
+}
+
+#categories div > ul > li > ul {
+    display: none;
+    width: 100%;
+    z-index: 2;
+    background-color: #f5f5f5;
+}
+#categories div > ul > li li {
+    line-height: 220%;
+    border-bottom: 1px solid #cb9a00;
+    padding-right: 10px;
+
+}
+#categories div > ul > li li:hover ,#categories div > ul > li li:hover a  {
+    color: #cb9a00;
+    background-color: #555;
+} #categories div > ul > li:hover >a{
+      color: #cb9a00;
+  }
+#categories div > ul > li:hover > ul {
+    display: block;
+}
+.list{
+    margin-top: 17px;
+}
+.list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    display: block;
+}
+
+.list li:hover {
+    background-color:  #DEDEDEBC;
+}
+
+.list li {
+    padding-right: 5px;
+    line-height: 220%;
+    border-bottom: 1px solid #cb9a00;
+    transition: 0.3s;
+}
+.list li:hover i{
+    transform: scale(1.4);
+    color: #e7b305;;
+}
+.card-body img{
+    display: block;
+    width: 100%;
+}
+.card{
+    margin-top: 15px;
+    padding: 2px;
+}
+.card-header{
+
+    text-align: center;
+    cursor: pointer;
+}
+.card-header h4{
+    color:#cb9a00 ;
+}
+.card a{
+    text-decoration: none;
+
+}
+.hover:hover
+{
+    color: #f5bb02;
+}
+#content .bg{
+    background-color:  #f5bb02;
+}
+.product_card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+.add_cart:hover i{
+    font-size: 17px;
+}
+.paging{
+    margin-top: 30px;
+    display: flex;
+
+    justify-content:center;
+}
+.paging p {
+    margin-right: 10px;
+    margin-top: 8px;
+
+}
+
+.paging ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.paging li {
+    margin: 4px 7px;
+    border-radius: 3px;
+}
+
+.paging a {
+
+    background-color: #888;
+    display: block;
+    width: 38px;
+    text-align: center;
+    padding-bottom: 4px;
+    color: white;
+    font-family: 'B Yekan';
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.paging a.active {
+    background-color:  #cb9a00;
+}
+
+.paging a:hover {
+    background-color: #ecb302;
+}
+
+#bottom{
+    background-color: #333;
+    color: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    background-color:#cb9a00 ;
+    border-color:#cb9a00 ;
+}
+.color{
+    color: #cb9a00 ;
+}
